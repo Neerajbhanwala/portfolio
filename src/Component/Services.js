@@ -9,19 +9,30 @@ function Services() {
       <span className='ms-5' style={{fontSize:'40px', color:'rgb(183 197 211)', fontFamily:'Papyrus'}}><b>What I Offer</b></span><br />
      <div className='service-content'>
      <div className='hoverme'></div>
-      <h4><b>Web Development</b></h4>
+     <span style={{fontSize:"45px"}}><i class="fa fa-code" aria-hidden="true"></i></span>
+      <h3><b>Web Development</b></h3>
+      <h5>
+      In publishing and graphic designing, Loeram ipsum is a placeholder text commonly used to demonstrate
+      the visual form of a document elying on mean.
+     </h5>
      </div>
      <div className='service-content'>
       <div className='hoverme'></div>
-     <h4><b>UI/ UX Designing</b></h4><br />
-     {/* <h5>
+      <span style={{fontSize:"45px"}}><i class="fa fa-code-fork" aria-hidden="true"></i></span>
+     <h3><b>UI/ UX Designing</b></h3>
+     <h5>
       In publishing and graphic designing, Loeram ipsum is a placeholder text commonly used to demonstrate
       the visual form of a document elying on mean.
-     </h5> */}
+     </h5>
      </div>
      <div className='service-content'>
      <div className='hoverme'></div>
-     <h4><b>Photoshop Editing</b></h4>
+     <span style={{fontSize:"45px"}}><i class="fa fa-crop" aria-hidden="true"></i></span>
+     <h3><b>Photoshop Editing</b></h3>
+     <h5>
+      In publishing and graphic designing, Loeram ipsum is a placeholder text commonly used to demonstrate
+      the visual form of a document elying on mean.
+     </h5>
      </div>
 </div>
     </>
