@@ -18,7 +18,7 @@ function Contact() {
     let x = document.getElementById("fname");
     let y = document.getElementById("email");
     let z = document.getElementById("textarea");
-    if(x,y,z.value===""){
+    if(x.value===""){
     alert("Please provide input firstly");
     }
     else{
