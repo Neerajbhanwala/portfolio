@@ -1,0 +1,47 @@
+.mains{
+    height:90vh;
+    width:100vw;
+    background:#06223f;
+}
+input[type="text"]{
+    background-color:transparent;
+    outline:none;
+    float:left;
+    border-radius:5px;
+    color:rgb(173, 172, 172);
+    border:2px solid rgb(104, 103, 103);
+    height:50px;
+    padding:10px;
+    width:600px;
+    margin:20px 0px 0px 50px;
+}
+textarea{
+    background-color:transparent;
+    outline:none;
+    border-radius:5px;
+    color:rgb(173, 172, 172);
+    border:2px solid rgb(104, 103, 103);
+    height:120px;
+    padding:10px;
+    width:600px;
+    margin:20px 0px 0px 50px;
+}
+.mains button{
+    margin:10px 0px 0px 50px;
+    border:none;
+    background:#fff;
+}
+.mail{
+    background-color:transparent;
+    outline:none;
+    float:left;
+    border-radius:5px;
+    color:#fff;
+    font-size:29px;
+    box-sizing:border-box;
+    cursor:pointer;
+    height:50px;
+    padding: 0px 0px 0px 20px;
+    width:410px;
+    margin:20px 0px 0px 50px;
+}

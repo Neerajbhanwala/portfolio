@@ -1,0 +1,34 @@
+.project-main{
+    height:100vh;
+    width:100vw;
+    background:rgb(226, 226, 253);
+    box-sizing:border-box;
+}
+.prj{
+   
+    height:350px;
+    width:400px;
+    float:left;
+    margin-left:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:auto;
+    box-sizing:border-box;
+    border-radius:20px 20px 0px 0px;
+    white-space:nowrap;
+    background-color:transparent; 
+}
+
+.prj-container{
+    height:80%;
+    width:80%;
+}
+
+.prj-container img{
+    box-shadow:rgba(0, 0, 0, 0.4)0px 2px 4px, rgba(0, 0, 0, 0.3)0px 7px 13px -3px, rgba(0, 0, 0, 0.2)0px -3px 0px inset;
+    height:100%;
+    width:100%;
+    margin-left:30px;
+    border-radius:20px;
+}

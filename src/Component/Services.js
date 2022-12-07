@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Style/Services.css'
 function Services() {
-
   return (
     <>
 <div id="Services" className='services-main p-5'>

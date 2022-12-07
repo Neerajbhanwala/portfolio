@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "../Style/Home.css";
+import '../Style/Home.css';
 import person from "../Image/person.png";
 
 function Home() {
-  const [show, setShow] = useState(false);
+ const [show, setShow] = useState(false);
   return (
     <div>
       {show ? (
@@ -23,12 +23,16 @@ function Home() {
               <i class="fa fa-heart" aria-hidden="true"></i>
             </div>
           </a>
-          <div className="navbar-list">
+          <a href="#Project">
+          <div className="navbar-list" title="my projects">
             <i class="fa fa-camera" aria-hidden="true"></i>
           </div>
-          <div className="navbar-list">
+          </a>
+          <a href="#Contact">
+          <div className="navbar-list" title="contact me">
             <i class="fa fa-address-book" aria-hidden="true"></i>
           </div>
+          </a>
         </div>
       ) : null}
       <div id="home" className="main-div-home">
@@ -36,7 +40,7 @@ function Home() {
           <div className="immg">
             <img src={person} alt="React Logo" style={{ height: "100%", width: "100%" }} />
           </div>
-          <div className="navv" title="Navbar" onClick={() => setShow(!show)}>
+          <div className="navv" title="Open Navbar" onClick={() => setShow(!show)}>
             <i class="fa fa-bars" aria-hidden="true"></i>
           </div>
           <div className="left-div-content">

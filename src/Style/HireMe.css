@@ -1,0 +1,18 @@
+.main{
+    height:93vh;
+    width:100vw;
+    background:rgb(252, 249, 249);
+}
+.box{
+    border:3px solid #06223f;
+    margin: 110px 0px 0px 550px;
+    padding:25px;
+    height:220px;
+    width:370px;
+    border-radius:10px 10px 140px 10px;
+}
+.box button{
+    background:#06223f;
+    margin:10px 0px 0px 0px;
+    color:#fff;
+}
