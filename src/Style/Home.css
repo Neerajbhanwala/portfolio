@@ -2,7 +2,8 @@
     height:60px;
     width:300px;
     border-radius:100px;
-    margin:530px 0px 0px 550px;
+    /* margin:570px 0px 0px 550px; */
+    margin:42% 40%;
     position:fixed;
     z-index:100;
     padding:5px 20px;
@@ -13,7 +14,7 @@
     animation-duration:0.50s;
 }
 @keyframes baar {
-    from {top: 90px;}
+    from {top: 120px;}
     to {top: 0px;}
   }
 
@@ -46,6 +47,7 @@ transition:1s;
     height:100%;
     width:66%;
     float:left;
+    right:0;
 }
 .right-content{
     height:100%;
@@ -99,12 +101,12 @@ transition:1s;
     font-family: Inria-Serif;
     line-height:1;
     animation: mycnt;
-    animation-duration:3s;
+    animation-duration:2s;
 }
 
 @keyframes mycnt {
-    from {bottom: 100px; opacity:0;}
-    to {bottom: 45px; opacity:1;}
+    from {bottom: 150px; opacity:0;}
+    to {bottom: 83px; opacity:1;}
   }
 
 .hire{
@@ -121,7 +123,8 @@ transition:1s;
     margin-left:200px;
 }
 .immg{
-    margin:25px 0px 0px 650px;
+    margin-left:650px;
+    bottom:0;
     height:600px;
     width:500px;
     position:absolute;
@@ -132,5 +135,5 @@ transition:1s;
 
 @keyframes myimg {
     from {top: 500px;}
-    to {top: 0px;}
+    to {top: 65px;}
   }
